@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+    height: 1080px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: "Roboto Light";
+    background-image: url("../Frontend/img/bgbancpick.jpg");
+    background-repeat: no-repeat;
+}
+
+img[alt=logo] {
+    width: 200px;
+    height: 100px;
+    padding-left: 800px;
+    padding-top: 15px;
+}
+
+.selected-operatives{
+    padding-left: 850px;
+    padding-top: 10px;
+}
+
+.hide-block-element{
+    visibility: hidden;
+    padding-left: 690px;
+    padding-top: 200px;
+}
+
+.selected-operatives{
+    visibility: hidden;
+}
+
+div{
+    color: #ffea0c;
+}

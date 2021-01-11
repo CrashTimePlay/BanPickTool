@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+    height: 1080px;
+    background-image: url("img/BG.png");
+    background-repeat: no-repeat;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: "Roboto Light";
+}
+
+img[alt=logo] {
+    width: 450px;
+    height: 225px;
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+form {
+    padding-left: 200px;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    width: 300px;
+}
+
+input[id=teamA] {
+    border: 3px solid darkred;
+}
+
+input[id=teamB] {
+    border: 3px solid cornflowerblue;
+}
+
+input[id=nameOfMatch] {
+    border: 3px solid #ffea0c;
+}
+
+input[type=submit] {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    width: 150px;
+}
+
+input[type=submit]:hover {
+    background-color: limegreen;
+}
+
+input[type=text] {
+    color: black;
+    font-size: 15px;
+    background-color: #f6ffff;
+}
+
+h3 {
+    font-family: "Roboto Thin";
+    color: white;
+}

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+    height: 1080px;
+    background-image: url("img/Match.png");
+    background-repeat: no-repeat;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: "Roboto Light";
+}
+
+h2{
+    color: #ffea0c;
+}
+
+.name-of-match{
+    color: aqua;
+}
+
+img[alt=logo] {
+    width: 450px;
+    height: 225px;
+}
+
+textarea{
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    background-color: #e5ffa3;
+    font-size: 12px;
+    resize: none;
+    width: 500px;
+    height: 35px;
+    padding-top: 6px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
