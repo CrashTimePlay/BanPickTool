@@ -25,6 +25,6 @@ $item->img = $data->img;
 if($item->updateEmployee()){
     echo json_encode("Operative data updated.");
 } else{
-    echo json_encode("Operative could not be updatedededed");
+    echo json_encode("Operative could not be updatededededwd");
 }
 ?>
